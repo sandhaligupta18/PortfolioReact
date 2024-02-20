@@ -1,25 +1,33 @@
 import React from 'react'
 import MyResume from '../../Cards/MyResume'
+import Experience from '../../Cards/Experience'
 
 function Resume() {
   return (
-    <div className='h-[90rem] md:h-[70rem] md:w-[80%] bg-[#212529] md:ml-[16.9rem]'>
+    <div id='resume' className= ' pb-12  lg:w-[80%] bg-[#212529] lg:ml-[16.9rem]'>
   <h1 className='pt-24   flex justify-center items-center text-white font-bold text-4xl'>Resume</h1>
-     <div className='grid grid-cols-2 px-16 gap-14 mt-24 '>
+     <div className='grid justify-center lg:grid-cols-2 lg:px-16 gap-14 mt-24 sm:grid-cols-1 '>
         <div>
   <h1 className='text-2xl  font-bold  text-white '>My Education</h1>
         <div className='flex flex-col gap-6 mt-8'>
-        <MyResume year='2021-2024' field='Computer Science' university='AKTU, Lucknow' content='Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.' />
-        <MyResume year='2021-2024' field='Computer Science' university='AKTU, Lucknow' content='Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.' />
-        <MyResume year='2021-2024' field='Computer Science' university='AKTU, Lucknow' content='Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.' />
+        <MyResume year='2021-2024' field='B.Tech - Computer Science' university='Vidya College of Engineering' content='AKTU, Lucknow, CGPA - 8.1' />
+        <MyResume year='2019-2020' field='Intermediate' university='B.B.S.S.M. Inter College' content='UP Board, Percentage - 85.4%' />
+        <MyResume year='2017-2018' field='High School' university='B.B.S.S.M. Inter College' content='UP Board, Percentage - 88%' />
         </div>
 
         </div>
         <div>
 <h1 className='text-2xl font-bold text-white'>My Experience </h1>  
  <div  className='flex flex-col gap-6 mt-8'>
- <MyResume />
-  <MyResume />
+ <Experience year='July 2023-Aug 2023' field='Web Development Intern' university='CodeClause , Remote' content='
+ Completed assigned tasks showing proficiency in HTML, CSS,
+ JavaScript, and responsive design.
+ Practically applied acquired skills to efficiently fulfill task
+requirements.
+Adapted quickly and learned rapidly to effectively tackle assigned
+tasks during the internship period.'/>
+
+  <Experience />
  </div>
 
         </div>

@@ -2,9 +2,9 @@ import React from 'react'
 
 function Aboutme() {
   return (
-    <div className='h-[80rem] md:h-[50rem] md:w-[80%] bg-[#212529] md:ml-[16.9rem]'>
+    <div id='about-me' className='pb-12 lg:w-[80%] bg-[#212529] lg:ml-[16.9rem]'>
         <h1 className='pt-24   flex justify-center items-center text-white font-bold text-4xl'>Know Me More</h1>
-    <div className='flex md:flex-row mt-16 md:mt-28 mx-4 md:mx-16 gap-8 md:gap-[9rem] flex-col'>
+    <div className='flex lg:flex-row mt-16 lg:mt-28 mx-4 lg:mx-16 gap-8 lg:gap-[9rem] flex-col'>
     <div className='flex flex-col gap-4 text-center '>
          <p className='text-white text-3xl font-bold '>I'm <span className='text-[#FFC107]'>Sandhali Gupta, </span> a Web Developer</p>
          <p className='text-[#909294] text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eius

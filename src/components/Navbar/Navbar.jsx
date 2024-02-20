@@ -24,7 +24,7 @@ export default function Navbar(){
     }
 
     return(
-        <div className={`bg-[#111418] w-full py-3 z-10 top-0 md:hidden fixed`}>
+        <div  className={`bg-[#111418] w-full py-3 z-10 top-0 md:hidden fixed`}>
             <div className=" px-6 md:mx-24 md:px-3 py-1 flex align-items-center justify-between text-white ">
                 <Link activeClass="!active" className="cursor-pointer" to="home" spy={true} smooth={true}  offset={-100} duration={500} ><p className='text-xl'>Sandhali</p></Link>
                 <div className="lg:hidden flex justify-center gap-6 items-center" onClick={handleClickIcon}>
@@ -38,7 +38,7 @@ export default function Navbar(){
 
 
 <div className='' onClick={handleMenu}>
-    {open == false ?  <FaBars className=" text-lg" />:
+    {open === false ?  <FaBars className=" text-lg" />:
     <HiX className=" text-white  text-lg   " />}
     </div>
                     
@@ -54,9 +54,8 @@ export default function Navbar(){
                                 <Link activeClass='active' to="about-me" spy={true} smooth={true} offset={-50} duration={500} className=" hover:text-yellow-300 border-b-[.5px] border-gray-400 cursor-pointer" onClick={handleClickIcon}>About Me</Link>
                                 <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-50} duration={500} className=" hover:text-yellow-300 border-b-[.5px] border-gray-400 cursor-pointer" onClick={handleClickIcon}>Skills</Link>
                                 <Link activeClass='active' to="resume" spy={true} smooth={true} offset={-50} duration={500} className=" hover:text-yellow-300 border-b-[.5px] border-gray-400 cursor-pointer" onClick={handleClickIcon}>Resume</Link>
-                                <Link activeClass='active' to="projects" spy={true} smooth={true} offset={-50} duration={500} className=" hover:text-yellow-300 border-b-[.5px] border-gray-400 cursor-pointer" onClick={handleClickIcon}>Projects</Link>
-                                <Link active Class='active' to="testimonials" spy={true} smooth={true} offset={-50} duration={500} className=" hover:text-yellow-300 border-b-[.5px] border-gray-400 cursor-pointer" onClick={handleClickIcon}>Testimonials</Link>
-                                <Link activeClass='active' to="contact-me" spy={true} smooth={true} offset={-50} duration={500} className=" hover:text-yellow-300  cursor-pointer" onClick={handleClickIcon}>Contact Me</Link>
+                                <Link activeClass='active' to="projects" spy={true} smooth={true} offset={-50} duration={500} className=" hover:text-yellow-300 border-b-[.5px] border-gray-400 cursor-pointer" onClick={handleClickIcon}>Projects</Link>                            
+                                <Link activeClass='active' to="contact" spy={true} smooth={true} offset={-50} duration={500} className=" hover:text-yellow-300  cursor-pointer" onClick={handleClickIcon}>Contact Me</Link>
                             </nav>
                         </div>
                     
