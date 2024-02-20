@@ -21,7 +21,7 @@ function Projects() {
          <h1 className='pt-24   flex justify-center items-center text-white font-bold text-4xl'>Projects</h1>
         <div>
         <div className="flex justify-center align-items-center mt-16 mb-12 gap-5 lg:gap-7" >
-                                       <button className={`text-white cursor-pointer pt-2 pb-1  font-semibold ${activeButton === 'All' ? 'border-b-2 border-[#F7B900]' : ''}`} onClick={()=>{
+                                   <button className={`text-white cursor-pointer pt-2 pb-1  font-semibold ${activeButton === 'All' ? 'border-b-2 border-[#F7B900]' : ''}`} onClick={()=>{
                                 setProj("All");
                                 setActiveButton("All")}} >ALL</button>
                             <button className={`text-white cursor-pointer pt-2 pb-1  font-semibold ${activeButton === 'ReactJS' ? 'border-b-2 border-[#F7B900]' : ''}`} onClick={()=>{
