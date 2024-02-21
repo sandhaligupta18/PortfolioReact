@@ -7,10 +7,8 @@ function Aboutme() {
     <div className='flex lg:flex-row mt-16 lg:mt-28 mx-6 md:mx-10 lg:mx-16 gap-8 lg:gap-[9rem] flex-col'>
     <div className='flex flex-col gap-4 text-center '>
          <p className='text-white text-3xl font-bold '>I'm <span className='text-[#FFC107]'>Sandhali Gupta, </span> a Web Developer</p>
-         <p className='text-[#909294] text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eius
-             ipsum a! Nobis repudiandae molestias asperiores fkjhg hfgkjf jkfjgin kdfgur kfjgif  jkhfkjghfd dkngjd d kkjjkdk dkjf fjhgkdfj jhfgfu hfgfg  quis dolores tenetur accusantium, hic beatae optio, officiis temporibus.</p>
-         <p  className='text-[#909294] text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Autem corrupti deleniti accusamus culpa sequi ad. Temporibus h dfkjghfd dkfgjkf jhdfgjhu jnjf jdhuak  gfkjg, unde beatae?</p>
+         <p className='text-[#909294] text-lg'>I'm Sandhali Gupta, a Computer Science undergraduate dedicated to crafting captivating web experiences. Proficient in JavaScript and React, I thrive on creating dynamic and visually appealing websites.  My commitment to excellence is reflected in my dedication to hard work and attention to detail. </p>
+         <p  className='text-[#909294] text-lg'>With a solid foundation in computer science, I'm eager to contribute my skills to innovative projects. I thrive in collaborative environments, embracing the opportunity to learn, grow, and achieve together as a dedicated team player.</p>
          </div>
          <div className='flex gap-4 flex-col  text-lg'>
          <p className='text-white border-b-[.5px] border-[#909294] h-10'>Name: <span className='text-current'>Sandhali Gupta</span></p>
