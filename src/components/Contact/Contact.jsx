@@ -30,7 +30,6 @@ function Contact() {
         <h1 className='pt-24   flex justify-center items-center text-white font-bold text-4xl'>Get in Touch</h1>
        <div className='flex lg:flex-row flex-col-reverse gap-5 justify-around mt-28 mx-9'>
 <div className='flex flex-col items-center lg:items-start'>
-    
     <h1 className='text-white text-2xl font-semibold '>ADDRESS</h1>
     <div className='flex flex-col items-center lg:items-start gap-5 mt-5 text-white text-lg font-normal' >
     <div>Meerut, UP</div>
