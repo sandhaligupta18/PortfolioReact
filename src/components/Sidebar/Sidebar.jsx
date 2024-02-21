@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import './Sidebar.css';
 
 function Sidebar() {
   return (
@@ -14,23 +15,23 @@ function Sidebar() {
             <p className='text-white text-2xl '>Sandhali Gupta</p>
         </div>
         <div  >
-            <nav className='flex flex-col gap-7 justify-center items-center'>
+            <nav className='ham flex flex-col gap-7 justify-center items-center'>
               
-                <Link activeClass='active' to="home" spy={true} smooth={true} offset={-100} duration={500} className=" hover:text-yellow-[#FFC107]   cursor-pointer text-xl text-white" >Home</Link>
-                <Link activeClass='active' to="home" spy={true} smooth={true} offset={-100} duration={500} className=" hover:text-yellow-[#FFC107]   cursor-pointer text-xl text-white" >About Me</Link>
-                <Link activeClass='active' to="home" spy={true} smooth={true} offset={-100} duration={500} className=" hover:text-yellow-[#FFC107]   cursor-pointer text-xl text-white" >Skills</Link>
-                <Link activeClass='active' to="home" spy={true} smooth={true} offset={-100} duration={500} className=" hover:text-yellow-[#FFC107]   cursor-pointer text-xl text-white" >Resume</Link>
-                <Link activeClass='active' to="home" spy={true} smooth={true} offset={-100} duration={500} className=" hover:text-yellow-[#FFC107]   cursor-pointer text-xl text-white" >Projects</Link>
-                <Link activeClass='active' to="home" spy={true} smooth={true} offset={-100} duration={500} className=" hover:text-yellow-[#FFC107]   cursor-pointer text-xl text-white" >Contact</Link>
+                <Link activeClass='active' to="home" spy={true} smooth={true} offset={-80} duration={500} className=" hover:text-[#FFC107]   cursor-pointer text-xl text-white" >Home</Link>
+                <Link activeClass='active' to="about-me" spy={true} smooth={true} offset={-80} duration={500} className=" hover:text-[#FFC107]   cursor-pointer text-xl text-white" >About Me</Link>
+                <Link activeClass='active' to="skills" spy={true} smooth={true} offset={-80} duration={500} className=" hover:text-[#FFC107]   cursor-pointer text-xl text-white" >Skills</Link>
+                <Link activeClass='active' to="resume" spy={true} smooth={true} offset={-80} duration={500} className=" hover:text-[#FFC107]   cursor-pointer text-xl text-white" >Resume</Link>
+                <Link activeClass='active' to="projects" spy={true} smooth={true} offset={-80} duration={500} className=" hover:text-[#FFC107]   cursor-pointer text-xl text-white" >Projects</Link>
+                <Link activeClass='active' to="contact" spy={true} smooth={true} offset={-80} duration={500} className=" hover:text-[#FFC107]   cursor-pointer text-xl text-white" >Contact</Link>
                 </nav>
                 
         </div>
         <div className="flex justify-center items-center gap-4">
                  
-                 <a href="https://linkedin.com/in/sandhali-gupta-82470325a" rel='noreferrer' target='_blank'><FaLinkedin className='text-sm  text-white' /></a>
-                 <a href="https://twitter.com/ChauhanShahad03" rel='noreferrer' target='_blank'><FaXTwitter className='text-sm  text-white '/></a>
-                 <a href="https://github.com/sandhaligupta18" rel='noreferrer' target='_blank'><FaGithub className='text-sm  text-white ' /></a>
-                 <a href="https://www.instagram.com/sandhaligupta/" rel='noreferrer' target='_blank'><FaInstagram className='text-sm  text-white' /></a>
+                 <a href="https://linkedin.com/in/sandhali-gupta-82470325a" rel='noreferrer' target='_blank'><FaLinkedin className='text-sm  text-white hover:text-[#3B5998]' /></a>
+                 <a href="https://twitter.com/SandhaliG93439" rel='noreferrer' target='_blank'><FaXTwitter className='text-sm  text-white hover:text-[#3CAEDB] '/></a>
+                 <a href="https://github.com/sandhaligupta18" rel='noreferrer' target='_blank'><FaGithub className='text-sm  text-white hover:text-[#31363b] ' /></a>
+                 <a href="https://www.instagram.com/sandhaligupta/" rel='noreferrer' target='_blank'><FaInstagram className='text-sm  text-white hover:text-[#C74784]' /></a>
          </div> 
       
     </div>

@@ -36,34 +36,34 @@ function Projects() {
                         </div>
                         <div>
                             {
-                                proj === "All" && <div className='grid gap-5 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center align-items-center mx-14 ' >
-                                    <MyProjects src={textutil} href="https://text-utils-beryl.vercel.app/" name="TextUtils" />
-                                    <MyProjects src={gym} href="https://gym-chi-one.vercel.app/" name="Portfolio" />
-                                    <MyProjects src={productlanding} href="https://product-landing-gamma.vercel.app/" name="Product Landing" />
-                                    <MyProjects src={Amazon} href="https://amazon-clone-zeta-ecru-75.vercel.app/" name="Amazon Clone" />
-                                    <MyProjects src={pizzapallete} href="https://pizzapalette.vercel.app/" name="PizzaPallete" />
-                                    <MyProjects src={calculator} href="https://pizzapalette-opdn.vercel.app/" name="Calculator" />
-                                    <MyProjects src={todo} href="https://to-do-list-kappa-pink.vercel.app/" name="ToDo" />
-                                    <MyProjects src={DigitalClock} href="https://digital-clock-ten-sigma.vercel.app/" name="Digital Clock" />
-                                    <MyProjects src={CountDown} href="https://password-generator-gilt-six.vercel.app/" name="Count Down" />
+                                proj === "All" && <div className='grid gap-5 md:gap-5 lg:gap-5 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center align-items-center md:mx-14  lg:mx-14' >
+                                    <MyProjects src={textutil} href="https://text-utils-beryl.vercel.app/" name="TextUtils" content="Developed a personalized text utility application with React, featuring text transformation functionalities such as upper/lowercase conversion, space removal,text-to-speech,etc, with customizable color buttons." />
+                                    <MyProjects src={gym} href="https://gym-chi-one.vercel.app/" name="Portfolio" content="Crafted with React and Tailwind CSS to showcase my expertise, projects, education, certification and experience in one dynamic portfolio." />
+                                    <MyProjects src={productlanding} href="https://product-landing-gamma.vercel.app/" name="Product Landing" content="Crafted a dynamic cosmetics product landing page solely through HTML and CSS, emphasizing a seamless user interface design to showcase all products elegantly" />
+                                    <MyProjects src={Amazon} href="https://amazon-clone-zeta-ecru-75.vercel.app/" name="Amazon Clone" content="Engineered a responsive Amazon clone leveraging HTML and CSS, prioritizing meticulous UI design to replicate the e-commerce giant's interface." />
+                                    <MyProjects src={pizzapallete} href="https://pizzapalette.vercel.app/" name="PizzaPallete" content="Developed a captivating layout for Pizza Palette, integrating HTML, CSS, and JavaScript to offer users an engaging experience, including easy-to-use features for ordering pizzas and seamless login/signup pages." />
+                                    <MyProjects src={calculator} href="https://pizzapalette-opdn.vercel.app/" name="Calculator" content="Engineered a fully functional calculator utilizing HTML, CSS, and JavaScript, enabling seamless mathematical calculations with precision and efficiency." />
+                                    <MyProjects src={todo} href="https://to-do-list-kappa-pink.vercel.app/" name="ToDo" content="Designed and implemented a versatile todo web application using HTML, CSS, and JavaScript, allowing users to effortlessly add, delete, and edit tasks for enhanced productivity." />
+                                    <MyProjects src={DigitalClock} href="https://digital-clock-ten-sigma.vercel.app/" name="Digital Clock" content="Developed a precise digital clock using HTML, CSS, and JavaScript, providing accurate time display for seamless timekeeping." />
+                                    <MyProjects src={CountDown} href="https://password-generator-gilt-six.vercel.app/" name="Count Down" content="Created a dynamic countdown website using HTML, CSS, and JavaScript, enabling users to set custom timers and automatically halting when reaching zero for streamlined time management." />
                                 </div>
                             }
                             {
-                                proj === "ReactJS" && <div className='grid mx-52 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center align-items-center  ' >
+                                proj === "ReactJS" && <div className='grid gap-5 lg:mx-52 md:mx-12 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center align-items-center  ' >
                                     <MyProjects  src={textutil} href="https://text-utils-beryl.vercel.app/" name="TextUtils" />
                                     <MyProjects src={gym} href="https://gym-chi-one.vercel.app/" name="Portfolio" />
                                     
                                 </div>
                             }
                             {
-                                proj === "HTML" && <div className='grid gap-2 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center align-items-center mx-14 ' >
+                                proj === "HTML" && <div className='grid gap-5 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center align-items-center mx-14 ' >
                                 <MyProjects src={productlanding} href="https://product-landing-gamma.vercel.app/" name="Product Landing" />
                                 <MyProjects src={Amazon} href="https://amazon-clone-zeta-ecru-75.vercel.app/" name="Amazon" />
                                 <MyProjects src={pizzapallete} href="https://pizzapalette.vercel.app/" name="Pizza Pallete" />
                                 </div>
                             }
                             {
-                                proj === "JavaScript" && <div className='grid gap-5 mx-52 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center align-items-center' >
+                                proj === "JavaScript" && <div className='grid gap-5 lg:mx-52 md:mx-12 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center align-items-center' >
                               
                                 <MyProjects src={calculator} href="https://pizzapalette-opdn.vercel.app/" name="Calculator" />
                                 <MyProjects src={todo} href="https://to-do-list-kappa-pink.vercel.app/" name="ToDo" />

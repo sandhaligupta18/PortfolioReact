@@ -15,36 +15,29 @@ export default function Navbar(){
     const handleClickIcon = () => {
         setToggleIcon(!toggleIcon)
     }
-    
- 
-    const [open , setOpen] = useState(false);
-    const handleMenu=()=>{
-        console.log(open);
-        setOpen((prev) => !prev);
-    }
 
     return(
-        <div  className={`bg-[#111418] w-full py-3 z-10 top-0 md:hidden fixed`}>
+        <div  className={`bg-[#111418] w-full py-3 z-10 top-0 lg:hidden fixed`}>
             <div className=" px-6 md:mx-24 md:px-3 py-1 flex align-items-center justify-between text-white ">
                 <Link activeClass="!active" className="cursor-pointer" to="home" spy={true} smooth={true}  offset={-100} duration={500} ><p className='text-xl'>Sandhali</p></Link>
                 <div className="lg:hidden flex justify-center gap-6 items-center" onClick={handleClickIcon}>
                   <div className="flex justify-center items-center gap-4">
                  
-                            <a href="https://linkedin.com/in/sandhali-gupta-82470325a" rel='noreferrer' target='_blank'><FaLinkedin className='text-lg  text-white' onClick={handleClickIcon}/></a>
-                            <a href="https://twitter.com/ChauhanShahad03" rel='noreferrer' target='_blank'><FaXTwitter className='text-lg  text-white ' onClick={handleClickIcon}/></a>
-                            <a href="https://github.com/sandhaligupta18" rel='noreferrer' target='_blank'><FaGithub className='text-lg  text-white ' onClick={handleClickIcon}/></a>
-                            <a href="https://www.instagram.com/sandhaligupta/" rel='noreferrer' target='_blank'><FaInstagram className='text-lg  text-white' onClick={handleClickIcon}/></a>
+                            <a href="https://linkedin.com/in/sandhali-gupta-82470325a" rel='noreferrer' target='_blank'><FaLinkedin className='text-lg hover:text-[#3B5998] text-white' onClick={handleClickIcon}/></a>
+                            <a href="https://twitter.com/SandhaliG93439" rel='noreferrer' target='_blank'><FaXTwitter className='text-lg  text-white hover:text-[#3CAEDB]' onClick={handleClickIcon}/></a>
+                            <a href="https://github.com/sandhaligupta18" rel='noreferrer' target='_blank'><FaGithub className='text-lg  text-white hover:text-[#31363b]' onClick={handleClickIcon}/></a>
+                            <a href="https://www.instagram.com/sandhaligupta/" rel='noreferrer' target='_blank'><FaInstagram className='text-lg  text-white hover:text-[#C74784]' onClick={handleClickIcon}/></a>
                     </div>    
 
 
-<div className='' onClick={handleMenu}>
-    {open === false ?  <FaBars className=" text-lg" />:
-    <HiX className=" text-white  text-lg   " />}
+<div className='' onClick={handleClickIcon}>
+    {toggleIcon === false ?  <FaBars className=" text-lg" />:
+    <HiX  className=" text-white  text-lg  " /> }
     </div>
-                    
+                     
                 </div>
             </div>
-            <div className={`bg-gradient lg:hidden bg-opacity-90 z-50 top-0 left-0   w-full bg-black text-white grid ${toggleIcon ? ' block ' : ' hidden' }`} >
+            <div className={`bg-gradient lg:hidden  bg-opacity-90 z-50 top-0 left-0   w-full bg-black text-white grid ${toggleIcon ? ' block ' : ' hidden' }`} >
                         <div className="flex justify-end" onClick={handleClickIcon}>
                             
                         </div>
