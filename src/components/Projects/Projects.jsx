@@ -51,7 +51,7 @@ function Projects() {
                             {
                                 proj === "ReactJS" && <div className='grid gap-5 lg:mx-52 md:mx-12 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center align-items-center  ' >
                                     <MyProjects  src={textutil} href="https://text-utils-beryl.vercel.app/" name="TextUtils" />
-                                    <MyProjects src={gym} href="https://gym-chi-one.vercel.app/" name="Portfolio" />
+                                    <MyProjects src={gym} href="https://portfolio-react-kohl-chi.vercel.app/" name="Portfolio" />
                                     
                                 </div>
                             }
