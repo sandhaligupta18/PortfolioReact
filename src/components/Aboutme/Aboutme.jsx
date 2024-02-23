@@ -12,7 +12,7 @@ function Aboutme() {
          </div>
          <div className='flex gap-4 flex-col  text-lg'>
          <p className='text-white border-b-[.5px] border-[#909294] h-10'>Name: <span className='text-current'>Sandhali Gupta</span></p>
-     <p className='text-white h-10 border-b-[.5px] w-[18rem] border-[#909294]'>Email: <span className='text-[#FFC107]'>sandhaligupta18@gmail.com</span></p>
+     <p className='text-white h-10 border-b-[.5px] w-[19rem] border-[#909294]'>Email: <span className='text-[#FFC107]'>sandhaligupta18@gmail.com</span></p>
      <p className='text-white h-10 border-b-[.5px] border-[#909294]'>Age: <span>21</span></p>
      <p className='text-white h-10 border-b-[.5px] border-[#909294]'>From: <span>Meerut, India</span>
      </p>
