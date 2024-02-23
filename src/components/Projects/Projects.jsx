@@ -6,7 +6,7 @@ import productlanding from '../Assets/Screenshot (156).png';
 import Amazon from '../Assets/Screenshot (157).png';
 import DigitalClock from '../Assets/Screenshot (158).png';
 import CountDown from '../Assets/Screenshot (159).png';
-import gym from '../Assets/Screenshot (160).png';
+import gym from '../Assets/Screenshot (164).png';
 import todo from '../Assets/Screenshot (162).png';
 import calculator from  '../Assets/Screenshot (163).png'
 import MyProjects from '../../Cards/MyProjects';
@@ -38,7 +38,7 @@ function Projects() {
                             {
                                 proj === "All" && <div className='grid gap-5 md:gap-5 lg:gap-5 pb-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center align-items-center md:mx-14  lg:mx-14' >
                                     <MyProjects src={textutil} href="https://text-utils-beryl.vercel.app/" name="TextUtils" content="Developed a personalized text utility application with React, featuring text transformation functionalities such as upper/lowercase conversion, space removal,text-to-speech,etc, with customizable color buttons." />
-                                    <MyProjects src={gym} href="https://gym-chi-one.vercel.app/" name="Portfolio" content="Crafted with React and Tailwind CSS to showcase my expertise, projects, education, certification and experience in one dynamic portfolio." />
+                                    <MyProjects src={gym} href="https://portfolio-react-kohl-chi.vercel.app/" name="Portfolio" content="Crafted with Reactjs and Tailwind CSS to showcase my expertise, projects, education, certification and experience in one dynamic portfolio." />
                                     <MyProjects src={productlanding} href="https://product-landing-gamma.vercel.app/" name="Product Landing" content="Crafted a dynamic cosmetics product landing page solely through HTML and CSS, emphasizing a seamless user interface design to showcase all products elegantly" />
                                     <MyProjects src={Amazon} href="https://amazon-clone-zeta-ecru-75.vercel.app/" name="Amazon Clone" content="Engineered a responsive Amazon clone leveraging HTML and CSS, prioritizing meticulous UI design to replicate the e-commerce giant's interface." />
                                     <MyProjects src={pizzapallete} href="https://pizzapalette.vercel.app/" name="PizzaPallete" content="Developed a captivating layout for Pizza Palette, integrating HTML, CSS, and JavaScript to offer users an engaging experience, including easy-to-use features for ordering pizzas and seamless login/signup pages." />
