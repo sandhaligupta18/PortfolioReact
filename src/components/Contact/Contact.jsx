@@ -63,7 +63,7 @@ function Contact() {
     <input name="user_name"  className='bg-[#343A40] border-none focus:shadow-md  focus:shadow-blue-600  focus:outline outline-offset-0 outline-blue-600 rounded text-lg text-white  h-12 w-80 p-4' type="text" placeholder='Name' />
     <input name="user_email" className='bg-[#343A40] border-none focus:shadow-md  focus:shadow-blue-600  focus:outline outline-offset-0 outline-blue-600 rounded text-lg text-white h-12 w-80 p-4' type="text" placeholder='Email' />
     </div>
-    <input  name="message" className='bg-[#343A40]  rounded text-lg  h-40 w-full md:w-[41.5rem] lg:w-full p-4 border-none focus:shadow-md  focus:shadow-blue-600  focus:outline outline-offset-0 outline-blue-600 text-white text-start ' type="text" placeholder='Tell us more about your needs here......' />
+    <input  name="message" className='bg-[#343A40]  rounded text-lg  h-40 w-full md:w-[41.5rem] lg:w-full p-4 border-none focus:shadow-md  focus:shadow-blue-600  focus:outline outline-offset-0 outline-blue-600 text-white text-start ' type="text" placeholder='Tell me more about your needs here......' />
     <button className='bg-[#F7B900] h-14 w-56 rounded-full text-white font-semibold  '>Send Message</button>
     </form>
 
