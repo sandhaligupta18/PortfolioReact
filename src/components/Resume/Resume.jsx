@@ -27,7 +27,7 @@ requirements.
 Adapted quickly and learned rapidly to effectively tackle assigned
 tasks during the internship period.'/>
 
-  <Experience year='Feb 2024-Present ' field='Web Development intern' university='Code Alpha , Remote' content=' I honed my skills in web development, specializing in HTML, CSS, JavaScript, and Tailwind CSS. I gained extensive experience in JavaScript, focusing on its practical applications in web development.Additionally, I utilized Git and GitHub for version control and code submission. This experience has not only enhanced my technical abilities but also strengthened my proficiency in project management.'  />
+  <Experience year='Feb 2024-Present ' field='Web Development intern' university='Code Alpha , Remote' content=' I honed my skills in web development, specializing in HTML, CSS, JavaScript, and Tailwind CSS. I gained extensive experience in JavaScript.Additionally, I utilized Git and GitHub for version control and code submission. This experience has not only enhanced my technical abilities but also strengthened my proficiency in project management.'  />
  </div>
 
         </div>
