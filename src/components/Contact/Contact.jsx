@@ -36,7 +36,7 @@ function Contact() {
     <div className='flex flex-col gap-3 items-center lg:items-start  '>
     <div className='flex gap-2 items-center'>
     <FaPhoneAlt className='text-[#F7B900]' /> 
-    <p>94758470540</p>
+    <p>8279747947</p>
     </div>
     <div className='flex gap-2 items-center'>
     <IoMdMail className='text-[#F7B900]' />    

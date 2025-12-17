@@ -1,30 +1,90 @@
-import React from 'react'
-import Skill from '../../Cards/Skill'
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3 } from "react-icons/fa";
-import { FaJs } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import React from "react";
+import Skill from "../../Cards/Skill";
 
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaDatabase,
+  FaPython,
+  FaGitAlt,
+  FaGithub,
+  FaRobot,
+  FaBootstrap,
+} from "react-icons/fa";
+
+import {
+  SiTailwindcss,
+  SiDotnet,
+  SiCsharp,
+} from "react-icons/si";
 
 function Skills() {
   return (
-    <div id='skills' className='pb-12 lg:w-[80%] bg-[#2C3135] lg:ml-[16.9rem]'>
-        <h1 className='pt-24   flex justify-center items-center text-white font-bold text-4xl'>My Skills</h1>
-      <div className='  sm:mx-16 grid lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-2  mt-24 lg:mx-10 md:mx-4 gap-5'>
-      <Skill icon={<FaHtml5/>} skill="HTML" content="HTML is the foundation of the web, allowing us to create user-friendly and captivating online experiences. With its building blocks, We craft websites that are both beautiful and easy to use. HTML isn't just code; it's the tool that brings our ideas to life." />
-      <Skill icon={<FaCss3/>} skill="CSS" content="CSS is like the paintbrush for websites. It lets us create beautiful designs and make web pages look amazing. With CSS, We give websites their unique style and make sure they're easy to use and look great on any device."/>
-      <Skill  icon={<FaJs/>} skill="JavaScript" content="JavaScript brings websites to life by making them interactive and fun to use. It helps developers create all sorts of cool things on the web, from flashy designs to making buttons do clever tricks."/>
-      <Skill icon={<FaReact/>} skill="React JS" content="React revolutionizes user interfaces with its declarative, component-based architecture. It simplifies creating user interfaces by breaking them into reusable components. This makes websites faster, more flexible, and easier to maintain."/>
-      <Skill icon={<FaJava />} skill="Core Java" content=" Core Java stands as the cornerstone of my expertise, showcasing my proficiency in object-oriented programming, data structures, and algorithm design. With a deep understanding of Java's core concepts, "/>
-      <Skill icon={<SiTailwindcss />} skill="Tailwind CSS" content="
-Tailwind CSS fuels my passion for frontend development, offering a utility-first approach that streamlines the creation of responsive and visually stunning websites. With its intuitive class-based styling system, I effortlessly craft sleek and modern user interfaces that adapt flawlessly to various screen sizes."/>
+    <div
+      id="skills"
+      className="pb-12 lg:w-[80%] bg-[#2C3135] lg:ml-[16.9rem]"
+    >
+      {/* Heading */}
+      <h1 className="pt-24 flex justify-center items-center text-white font-bold text-4xl">
+        My Skills
+      </h1>
+
+      {/* Skills Grid */}
+      <div className="sm:mx-16 grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 mt-24 lg:mx-10 md:mx-4 gap-5">
+
+        <Skill
+          icon={<FaHtml5 size={32} />}
+          skill="HTML5"
+          content="HTML is the foundation of my frontend development work. I use semantic HTML to build structured, accessible, and SEO-friendly web pages."
+        />
+
+        <Skill
+          icon={<FaCss3Alt size={32} />}
+          skill="CSS3 / Bootstrap / Tailwind CSS"
+          content="I design responsive and visually appealing interfaces using modern CSS frameworks like Bootstrap and Tailwind CSS."
+        />
+
+        <Skill
+          icon={<FaJs size={32} />}
+          skill="JavaScript (ES6+)"
+          content="JavaScript enables me to build interactive and dynamic web applications using modern ES6+ features."
+        />
+
+        <Skill
+          icon={<FaReact size={32} />}
+          skill="React.js"
+          content="React is my primary frontend framework for building scalable and component-based user interfaces."
+        />
+
+        <Skill
+          icon={<SiDotnet size={32} />}
+          skill=".NET Core & C#"
+          content="I develop secure and scalable backend systems using .NET Core and C#, following MVC architecture."
+        />
+
+        <Skill
+          icon={<FaDatabase size={32} />}
+          skill="SQL"
+          content="I work with relational databases to design schemas, write optimized queries, and manage data efficiently."
+        />
+
+        <Skill
+          icon={<FaRobot size={32} />}
+          skill="Python & AI Automation"
+          content="I use Python to build AI-driven solutions, integrate LLMs, automate workflows, and work with ASR/TTS systems."
+        />
+
+        <Skill
+          icon={<FaGitAlt size={32} />}
+          skill="Git & GitHub"
+          content="I use Git and GitHub for version control, collaboration, and clean code management."
+        />
 
       </div>
-
     </div>
-  )
+  );
 }
 
-export default Skills
+export default Skills;
