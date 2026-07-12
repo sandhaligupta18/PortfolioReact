@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import { FaHospitalUser, FaFileMedicalAlt, FaRobot } from 'react-icons/fa';
+import { FaDatabase, FaHospitalUser, FaFileMedicalAlt, FaRobot } from 'react-icons/fa';
 import textutil from '../Assets/Screenshot (154).png';
 import pizzapallete from '../Assets/Screenshot (155).png';
 import productlanding from '../Assets/Screenshot (156).png';
 import Amazon from '../Assets/Screenshot (157).png';
 import DigitalClock from '../Assets/Screenshot (158).png';
 import CountDown from '../Assets/Screenshot (159).png';
-import portfolio from '../Assets/Screenshot (164).png';
 import todo from '../Assets/Screenshot (162).png';
 import calculator from '../Assets/Screenshot (163).png';
 import MyProjects from '../../Cards/MyProjects';
@@ -44,12 +43,11 @@ const projects = [
     tech: 'React.js, JavaScript, CSS',
   },
   {
-    name: 'Portfolio',
-    category: 'React JS',
-    src: portfolio,
-    href: 'https://portfolio-react-kohl-chi.vercel.app/',
-    content: 'Personal portfolio built with React and Tailwind CSS to present skills, education, experience, and projects.',
-    tech: 'React.js, Tailwind CSS',
+    name: 'Enterprise Knowledge Assistant using RAG',
+    category: 'AI & Automation',
+    icon: <FaDatabase />,
+    content: 'Built a RAG-based knowledge assistant for enterprise conference documents and meeting records with contextual Q&A workflows.',
+    tech: 'Python, LangChain, FAISS, OpenAI/Hugging Face Embeddings, FastAPI',
   },
   {
     name: 'Product Landing',
