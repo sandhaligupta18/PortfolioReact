@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import image from  '../Assets/WhatsApp Image 2024-02-11 at 2.57.12 PM.jpg'
+// import image from  '../Assets/WhatsApp Image 2024-02-11 at 2.57.12 PM.jpg'
+import image from  '../Assets/WhatsApp Image 2026-07-12 at 3.22.46 PM.jpeg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from 'react-icons/fa';

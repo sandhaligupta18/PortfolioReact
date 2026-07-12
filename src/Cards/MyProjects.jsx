@@ -1,17 +1,33 @@
 import React from 'react'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 function MyProjects(props) {
+  const hasImage = Boolean(props.src);
+
   return (
-<div className="h-[17rem] w-[20rem] lg:w-[19rem] text-center rounded-lg  relative overflow-hidden">
-            <img src={props.src} alt="Project-img" className='w-full h-full block '/>
-            <div className="group flex justify-center align-items-center bg-transparent h-full w-full absolute top-0 left-0 hover:bg-[#51585e]  hover:bg-opacity-60  transition-opacity duration-300 ease-in-out">
-                
-                <a href={props.href} target="_blank" rel="noreferrer" className="absolute text-[#F7B900] text-3xl font-medium  text-center transition transform translate-y-[19rem] group-hover:translate-y-10 duration-500">{props.name}
-                <p className='text-sm mt-3 text-white '>{props.content}</p>
-                </a>
-        
-            </div>
+    <article className="w-[20rem] lg:w-[19rem] min-h-[21rem] rounded-lg overflow-hidden bg-[#111418] border border-[#454c52] text-left flex flex-col">
+      {hasImage ? (
+        <img src={props.src} alt={`${props.name} project preview`} className="h-36 w-full object-cover" />
+      ) : (
+        <div className="h-36 bg-[#23292e] flex items-center justify-center text-[#F7B900] text-5xl">
+          {props.icon}
         </div>
+      )}
+
+      <div className="p-5 flex flex-col gap-3 flex-1">
+        <div>
+          {props.category && <p className="text-[#F7B900] text-xs font-semibold uppercase tracking-wide">{props.category}</p>}
+          <h2 className="text-white text-xl font-semibold mt-1">{props.name}</h2>
+        </div>
+        <p className="text-[#b6b8ba] text-sm leading-6 flex-1">{props.content}</p>
+        {props.tech && <p className="text-[#909294] text-xs leading-5">{props.tech}</p>}
+        {props.href && (
+          <a href={props.href} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-[#F7B900] font-semibold text-sm">
+            View Project <FaExternalLinkAlt className="text-xs" />
+          </a>
+        )}
+      </div>
+    </article>
   )
 }
 
